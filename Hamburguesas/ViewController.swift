@@ -19,8 +19,7 @@ class ViewController: UIViewController {
     
 
     @IBAction func modificaValores() {
-        
-        print("Clic en el botón")
+       
         
         paisSeleccionado.text = paises.obtenPais()
         hamburguesaSeleccionada.text = hamburguesas.obtenHamburguesa()
