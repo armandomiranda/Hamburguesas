@@ -22,58 +22,31 @@
                                 <rect key="frame" x="37" y="102" width="267" height="21"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="54I-eo-DVn">
-                                <rect key="frame" x="37" y="131" width="105" height="21"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQJ-lu-s9X">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="21"/>
-                                        <animations/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQJ-lu-s9X">
+                                <rect key="frame" x="37" y="148" width="282" height="21"/>
                                 <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="QQJ-lu-s9X" secondAttribute="bottom" id="CKl-O9-NrG"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="top" secondItem="54I-eo-DVn" secondAttribute="top" id="H35-Ks-Jgw"/>
-                                    <constraint firstAttribute="bottom" secondItem="QQJ-lu-s9X" secondAttribute="bottom" id="O6E-IT-Yq1"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="centerY" secondItem="54I-eo-DVn" secondAttribute="centerY" id="OOF-Qz-RGO"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="top" secondItem="54I-eo-DVn" secondAttribute="top" id="PmQ-o9-XT3"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="top" secondItem="54I-eo-DVn" secondAttribute="top" id="gMM-TD-2jR"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="top" secondItem="54I-eo-DVn" secondAttribute="topMargin" id="gMM-jz-2sj"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="bottom" secondItem="54I-eo-DVn" secondAttribute="bottomMargin" id="k8j-Qn-3Po"/>
-                                    <constraint firstItem="QQJ-lu-s9X" firstAttribute="top" secondItem="54I-eo-DVn" secondAttribute="top" id="lyN-HY-yoO"/>
-                                </constraints>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="jQL-K9-YJy">
-                                <rect key="frame" x="37" y="177" width="173" height="30"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rP-NP-Pah">
-                                        <rect key="frame" x="0.0" y="0.0" width="173" height="30"/>
-                                        <animations/>
-                                        <state key="normal" title="Quiero una hamburguesa"/>
-                                        <connections>
-                                            <action selector="modificaValores" destination="BYZ-38-t0r" eventType="touchUpInside" id="6bk-2X-8m9"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1rP-NP-Pah">
+                                <rect key="frame" x="37" y="196" width="173" height="30"/>
                                 <animations/>
-                            </stackView>
+                                <state key="normal" title="Quiero una hamburguesa"/>
+                                <connections>
+                                    <action selector="modificaValores" destination="BYZ-38-t0r" eventType="touchUpInside" id="6bk-2X-8m9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="54I-eo-DVn" firstAttribute="top" secondItem="QKO-ae-Prg" secondAttribute="bottom" constant="8" symbolic="YES" id="4bZ-wQ-8c2"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QKO-ae-Prg" secondAttribute="trailing" constant="55" id="4fE-OC-7XJ"/>
-                            <constraint firstItem="jQL-K9-YJy" firstAttribute="leading" secondItem="54I-eo-DVn" secondAttribute="leading" id="Lmc-5i-AsC"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="jQL-K9-YJy" secondAttribute="bottom" constant="280" id="P6S-ad-1m0"/>
                             <constraint firstItem="QKO-ae-Prg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="Xmy-NM-aau"/>
                             <constraint firstItem="QKO-ae-Prg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="brE-Ce-jbi"/>
-                            <constraint firstItem="QKO-ae-Prg" firstAttribute="leading" secondItem="54I-eo-DVn" secondAttribute="leading" id="eUG-Ra-rHN"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
